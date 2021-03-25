@@ -1,0 +1,34 @@
+git status
+
+git add .
+
+git commit
+
+git push origin master
+
+
+How to Build a CLI Gem
+
+1. Plan your gem, imagine your interface
+2. Start with project structure - google
+3. Start with the entry point -  the file run
+4. force that to build the CLI interface
+5. Stub out the interface
+6. Start making things real
+7. Discover objects
+8. Program
+
+
+- A command line interface for Tv show times starting with tv maze
+
+- User types in a tv show that they want to watch from a predetermined list of tv shows
+
+- User sees times and dates, description of show, etc. for selected tv show 
+
+- *Bonus* User is able to create a schedule for certain days and times that they want to see any of the predetermined TV-Shows.
+
+CLI class - handling all things displaying on the terminal
+API class - handling all things API
+TV Shows class - Handles all TV Shows
+
+chmod +x run.rb
